@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MakeUp Sale List</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      //using Jquery
+      $(document).ready(function() {
+        Transform(); 
+        });
+    </script>
+
+  </head>
+
+  <body>
+    <div id="mekaplist" >
+      <h2>SALES BY SEPHORA</h2>
+    </div>
+
+    <script>
+      function Transform() {
+        // Download XML data from the server side.
+        var xml = getXMLData("createXML2.php");
+
+        // Get XSL template at the client side.
+        var xsl = getXMLData("mekap_list.xsl");
+
+        // Only for Mozilla based browsers.
+        xsltProcessor = new XSLTProcessor(); //Create a new XSLTProcessor object
+        xsltProcessor.importStylesheet(xsl); //import the XSL file to it
+        var result = xsltProcessor.transformToFragment(xml, document); // to apply the XSL style sheet to the xml document
+
+        $("#mekaplist").append(result); //display
+      }
+
+      //return file from server/client side
+      function getXMLData(url){
+        return $.ajax({type: "GET",
+        url: url,
+        async: false}).responseXML;
+      }
+
+    </script>
+
+  </body>
+</html>

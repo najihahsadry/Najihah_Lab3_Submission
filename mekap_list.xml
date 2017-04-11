@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Link the XSL Style Sheet to the XML Document -->
+<?xml-stylesheet type="text/xsl" href="mekap_list.xsl"?> 
+	
+<mekap_list>
+	<mekap>
+		<brand>SEPHORA COLLECTION</brand>
+		<name>Mini Deluxe Charcoal Antibacterial Brush Set</name>
+		<codeItem>1869940</codeItem>
+		<price>$42.00</price>
+		<image>img/brush_set.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>CLINIQUE</brand>
+		<name>Clean Skin, Great Skin - Skin Types 1, 2</name>
+		<codeItem>1898915</codeItem>
+		<price>$89.50</price>
+		<image>img/skin_type.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>Dr. Jart+</brand>
+		<name>Clear Skin Lover Rubber Mask</name>
+		<codeItem>1907252</codeItem>
+		<price>$12.00</price>
+		<image>img/mask.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>TOM FORD</brand>
+		<name>Lip Color</name>
+		<codeItem>1917186</codeItem>
+		<price>$53.00</price>
+		<image>img/lipstick.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>Dior</brand>
+		<name>Diorshow Pump‘N’Volume Mascara</name>
+		<codeItem>1921337</codeItem>
+		<price>$29.50</price>
+		<image>img/mascara.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>Deborah Lippmann</brand>
+		<name>Bed of Roses Nail Polish Set</name>
+		<codeItem>1923374</codeItem>
+		<price>$36.00</price>
+		<image>img/nailpolish.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>SEPHORA COLLECTION</brand>
+		<name>Total Coverage Sponge</name>
+		<codeItem>1931427</codeItem>
+		<price>$12.00</price>
+		<image>img/sponge.jpg</image>
+	</mekap>
+	<mekap>
+		<brand>tarte</brand>
+		<name>Make Believe In Yourself: Spellbound Glow Rainbow Highlighter</name>
+		<codeItem>1935204</codeItem>
+		<price>$30.00</price>
+		<image>img/highlighter.jpg</image>
+	</mekap>
+</mekap_list>
